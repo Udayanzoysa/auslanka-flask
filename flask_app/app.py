@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return "Hello, Flask on dcrypto.site!"
+    return "Hello, Flask!"
 
-if __name__ == "__main__":
-    app.run(host="http://145.223.19.67/", port=5000)
+if __name__ == '__main__':
+    app.run(host='0.0.0.0', port=5000)
