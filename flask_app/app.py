@@ -7,4 +7,4 @@ def hello():
     return "Hello, Flask on dcrypto.site!"
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000)
+    app.run(host="http://145.223.19.67/", port=5000)
